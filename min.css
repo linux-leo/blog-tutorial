@@ -49,6 +49,7 @@ button, select {
     font-size: 16px;
     height: 32px;
     width: 32px;
+    margin: auto;
     border-radius: 100%;
     display: inline-block;
 
@@ -75,7 +76,6 @@ button:hover, code, pre {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    align-self:flex-start;
 }
 .content{
     animation: onpageload 1.5s;
