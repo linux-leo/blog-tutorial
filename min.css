@@ -1,0 +1,68 @@
+*, :after, :before {
+    box-sizing:border-box
+}
+
+body {
+    color: #444;
+    font: 18px/1.6 Georgia, Times New Roman, Times, serif;
+    margin: 40px auto;
+    max-width: 760px;
+    padding:0 20px
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height:1.2
+}
+
+a {
+    color: #05c;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #005c;
+}
+
+hr {
+    border: 0;
+    margin:25px 0
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    padding-bottom: 25px;
+    text-align:left
+}
+
+hr, td, th {
+    border-bottom:1px solid #ddd
+}
+
+button, select {
+    background: #ddd;
+    border: 0px;
+    font-size: 48px;
+    padding: 0em 0.1em;
+}
+
+input, table {
+    font-size:1pc
+}
+
+input, td, th {
+    padding: 5px;
+    vertical-align:bottom
+}
+
+button:hover, code, pre {
+    background:#eee
+}
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+
