@@ -43,8 +43,17 @@ hr, td, th {
 button, select {
     background: #ddd;
     border: 0px;
+    font-size: 16px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+.big{
     font-size: 48px;
-    padding: 0em 0.1em;
+    height: 64px;
+    width: 64px;
 }
 
 input, table {
@@ -61,6 +70,6 @@ button:hover, code, pre {
 }
 .row {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin: auto;
 }
