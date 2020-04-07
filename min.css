@@ -2,6 +2,9 @@
     box-sizing:border-box
 }
 
+#Titel {
+    margin: auto;
+}
 body {
     color: #444;
     font: 18px/1.6 'Baloo Thambi 2', cursive;
@@ -46,7 +49,7 @@ button, select {
     font-size: 16px;
     height: 32px;
     width: 32px;
-    border-radius: 50%;
+    border-radius: 100%;
     display: inline-block;
 
 }
@@ -73,3 +76,7 @@ button:hover, code, pre {
     justify-content: space-between;
     margin: auto;
 }
+.content{
+    animation: onpageload 0.5s;
+}
+@keyframes onpageload {from {opacity: 0;}to{opacity: 1;}}
