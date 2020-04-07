@@ -75,6 +75,7 @@ button:hover, code, pre {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
+    align-self:flex-start;
 }
 .content{
     animation: onpageload 1.5s;
