@@ -16,4 +16,4 @@ button:hover, code, pre {background:#eee}
 .header {display: flex; justify-content: space-evenly; align-items: center; margin: auto;}
 .content{animation: onpageload 1.5s;}
 @keyframes onpageload {0%{opacity: 0;}50%{opacity: 0;}100%{opacity: 1;}}
-@media screen and (max-width: 480px) {button{display: none;}}
+@media screen and (max-width: 400px) {button{display: none;}}
