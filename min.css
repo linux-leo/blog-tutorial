@@ -51,6 +51,7 @@ button{
     width: 32px;
     shape-outside: circle();
     clip-path: circle();
+    text-align: center;
 }
 .big{
     font-size: 48px;
