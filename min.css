@@ -1,82 +1,19 @@
-*, :after, :before {
-    box-sizing:border-box
-}
-
-#Titel {
-    margin: auto;
-}
-body {
-    color: #444;
-    font: 18px/1.6 'Baloo Thambi 2', cursive, Arial,Georgia, "Times New Roman", Times, serif;
-    margin: 40px auto;
-    max-width: 760px;
-    padding:0 20px
-}
-
-h1, h2, h3, h4, h5 {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    line-height:1.2
-}
-
-a {
-    color: #05c;
-    text-decoration: none;
-}
-
-a:hover {
-    color: #005c;
-}
-
-hr {
-    border: 0;
-    margin:25px 0
-}
-
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-    padding-bottom: 25px;
-    text-align:left
-}
-
-hr, td, th {
-    border-bottom:1px solid #ddd
-}
-
-button{
-    background: #ddd;
-    border: 0px;
-    font-size: 16px;
-    height: 32px;
-    width: 32px;
-    shape-outside: circle();
-    clip-path: circle();
-    text-align: center;
-}
-.big{
-    font-size: 48px;
-    height: 64px;
-    width: 64px;
-}
-
-input, table {
-    font-size:1pc
-}
-
-input, td, th {
-    padding: 5px;
-    vertical-align:bottom
-}
-
-button:hover, code, pre {
-    background:#eee
-}
-.row {
-    display: flex;
-    justify-content: space-evenly;
-    margin: auto;
-}
-.content{
-    animation: onpageload 1.5s;
-}
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+*, :after, :before {box-sizing:border-box}
+#Titel {margin: auto;}
+body {color: #444; font: 18px/1.6 'Baloo 2', cursive, Arial,Georgia, "Times New Roman", Times, serif; margin: 40px auto; max-width: 760px; padding:0 20px}
+h1, h2, h3, h4, h5 {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; line-height:1.2}
+a {color: #05c; text-decoration: none;}
+a:hover {color: #005c;}
+hr {border: 0; margin:25px 0}
+table { border-collapse: collapse; border-spacing: 0; padding-bottom: 25px; text-align:left}
+hr, td, th {border-bottom:1px solid #ddd}
+button{background: #ddd; border: 0px; shape-outside: circle(); clip-path: circle(); font-size: 16px; height: 32px; width: 32px;}
+.big{font-size: 48px; height: 64px; width: 64px;}
+input, table {font-size:1pc}
+input, td, th {padding: 5px; vertical-align:bottom;}
+button:hover, code, pre {background:#eee}
+.header {display: flex; justify-content: space-evenly; align-items: center; margin: auto;}
+.content{animation: onpageload 1.5s;}
 @keyframes onpageload {0%{opacity: 0;}50%{opacity: 0;}100%{opacity: 1;}}
+@media screen and (max-width: 480px) {button{display: none;}}
