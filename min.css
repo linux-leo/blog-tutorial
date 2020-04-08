@@ -43,16 +43,14 @@ hr, td, th {
     border-bottom:1px solid #ddd
 }
 
-button, select {
+button{
     background: #ddd;
     border: 0px;
     font-size: 16px;
     height: 32px;
     width: 32px;
-    margin: auto;
-    border-radius: 100%;
-    display: inline-block;
-
+    shape-outside: circle();
+    clip-path: circle();
 }
 .big{
     font-size: 48px;
